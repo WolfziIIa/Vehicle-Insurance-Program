@@ -249,9 +249,9 @@ int main()
 			{
 				cout << "\nPlease enter your username and password: \n";
 				cout << "Username: ";
-				cin >> username;
+				cin >> users_name;
 				cout << "Password: ";
-				cin >> password;
+				cin >> users_password;
 
 				if (username == users_name && password == users_password)
 				//need to figure out a way to extract the actual users name and password to compare whether correct. maybe this could become a for loop or while loop for 3 turns
